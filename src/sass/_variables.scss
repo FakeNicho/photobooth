@@ -1,0 +1,19 @@
+$mobile: max-width 667px;
+$desktop: min-width 668px;
+
+$entry_width: 372px;
+$entry_side_padding: 5px;
+$desktop_small_breakpoint: calc(#{$entry_width} * 2 + #{$entry_side_padding} * 2);
+$desktop_small: max-width 600;
+
+$primary_blue: #6496c8;
+$secondary_blue: #346392;
+$tertiary_blue: #27496d;
+
+$gray0: #666666;
+$gray1: #555555;
+$gray2: #444444;
+$gray3: #333333;
+$gray4: #222222;
+
+$orange: #ff7813;

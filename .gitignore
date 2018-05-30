@@ -1,0 +1,11 @@
+log.txt
+.idea
+Gemfile.lock
+node_modules
+public/dist
+bin/*
+public/imgs
+yarn-error.log
+yarn.lock
+config.json
+flow-typed

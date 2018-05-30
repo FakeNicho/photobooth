@@ -1,0 +1,77 @@
+.navbar {
+  overflow: hidden;
+  background-color: $gray3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar form {
+  height: 100%;
+  display: flex;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: $orange;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.navbar__filler {
+  flex-grow: 1;
+}
+
+.navbar li:first-of-type a {
+  background-color: $orange;
+  color: black;
+}
+
+.navbar input::placeholder {
+  color: #a68b00;
+  font-size: 16px;
+}
+
+.navbar select {
+}
+
+.navbar .search input {
+  border: 2px solid $gray1;
+  color: $orange;
+  background-color: $gray3;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-right: 30px;
+  height: 40px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.navbar .search input:focus {
+  border: 2px solid $orange;
+  outline: none;
+}
+
+.navbar .search button {
+  display: none;
+}
+
+.navbar .search img {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  height: 20px;
+}
+
+.navbar .search {
+  position: relative;
+  @include breakpoint($mobile) {
+    flex-grow: 1;
+  }
+}
